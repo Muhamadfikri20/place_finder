@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:4-38:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b4a5197fd6212e289482a5a5020c4cb4/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b4a5197fd6212e289482a5a5020c4cb4/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/652263b9f9055986fea6cbedd7721dd4/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/652263b9f9055986fea6cbedd7721dd4/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c53b999039c955ce8de8c26c156cc158/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c53b999039c955ce8de8c26c156cc158/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3352cd024516c0bb5ed561b33efb0ec8/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3352cd024516c0bb5ed561b33efb0ec8/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/13639e5aeb449a9d7f0a1e2eb46d102d/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/13639e5aeb449a9d7f0a1e2eb46d102d/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3352cd024516c0bb5ed561b33efb0ec8/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:geolocator] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:location_permissions] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_maps_flutter] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_api_availability] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/9271af87c50cd985eb2066464607bf12/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b4a5197fd6212e289482a5a5020c4cb4/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/652263b9f9055986fea6cbedd7721dd4/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c53b999039c955ce8de8c26c156cc158/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53b345b3d08644ba1e0dde42c9e1f531/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/254ac3f678a4d7cfcca410c077575de0/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/cdf1586d964e2ea17aad8b4f713c15b0/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/f927ddabbcdf5870dd63b539bef6c825/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/74e9918cec2815b946ff3214dc5e3551/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3352cd024516c0bb5ed561b33efb0ec8/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/798aa7bc6c408845188aa46afb21a372/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c0536414f139d91b24a2c7a9e6b7f39b/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/63a771e7eae6caf856ba809f7ef2b04c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/8faf7c4aa4900405d06741b25c8ae55e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b5f03685210e0dd985282056f7f44d93/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/13639e5aeb449a9d7f0a1e2eb46d102d/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3aeac318adca7280ae34c91570c80762/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/9ce2d3743e2dbb03f0564e02dd0353ee/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/ebcc03f26f91dff7bc6a5adf9db20030/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:5-79
+MERGED from [:geolocator] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [:geolocator] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-sdk
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+MERGED from [:geolocator] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/9271af87c50cd985eb2066464607bf12/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/9271af87c50cd985eb2066464607bf12/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b4a5197fd6212e289482a5a5020c4cb4/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b4a5197fd6212e289482a5a5020c4cb4/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/652263b9f9055986fea6cbedd7721dd4/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/652263b9f9055986fea6cbedd7721dd4/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c53b999039c955ce8de8c26c156cc158/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c53b999039c955ce8de8c26c156cc158/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53b345b3d08644ba1e0dde42c9e1f531/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53b345b3d08644ba1e0dde42c9e1f531/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/254ac3f678a4d7cfcca410c077575de0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/254ac3f678a4d7cfcca410c077575de0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/cdf1586d964e2ea17aad8b4f713c15b0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/cdf1586d964e2ea17aad8b4f713c15b0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/f927ddabbcdf5870dd63b539bef6c825/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/f927ddabbcdf5870dd63b539bef6c825/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/74e9918cec2815b946ff3214dc5e3551/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/74e9918cec2815b946ff3214dc5e3551/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3352cd024516c0bb5ed561b33efb0ec8/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3352cd024516c0bb5ed561b33efb0ec8/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/798aa7bc6c408845188aa46afb21a372/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/798aa7bc6c408845188aa46afb21a372/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c0536414f139d91b24a2c7a9e6b7f39b/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/c0536414f139d91b24a2c7a9e6b7f39b/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/63a771e7eae6caf856ba809f7ef2b04c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/63a771e7eae6caf856ba809f7ef2b04c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/8faf7c4aa4900405d06741b25c8ae55e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/8faf7c4aa4900405d06741b25c8ae55e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b5f03685210e0dd985282056f7f44d93/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/b5f03685210e0dd985282056f7f44d93/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/13639e5aeb449a9d7f0a1e2eb46d102d/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/13639e5aeb449a9d7f0a1e2eb46d102d/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3aeac318adca7280ae34c91570c80762/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3aeac318adca7280ae34c91570c80762/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/9ce2d3743e2dbb03f0564e02dd0353ee/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/9ce2d3743e2dbb03f0564e02dd0353ee/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/ebcc03f26f91dff7bc6a5adf9db20030/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/ebcc03f26f91dff7bc6a5adf9db20030/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/53473b42dbaf8f69b71d424449d82b26/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/d870c44e09a3ec4c83e79b50e4132e1d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/48421c3c174ce20da7f4147f6a4211c4/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/202bc8890b49ad7094a3b93bc2615785/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58

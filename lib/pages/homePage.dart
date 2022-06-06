@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
@@ -11,6 +12,16 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   Completer<GoogleMapController> _controller = Completer();
+  @override
+  void initState() {
+    super.initState();
+    _getCurrentPosition();
+  }
+
+  Future<void> _getCurrentPosition() async {
+    final position = await Geolocator().getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    print(position);
+  }
 
   @override
   Widget build(BuildContext context) {
