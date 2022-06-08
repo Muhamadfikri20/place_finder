@@ -1,0 +1,4 @@
+#Wed Jun 08 14:12:00 WIB 2022
+base.0=/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

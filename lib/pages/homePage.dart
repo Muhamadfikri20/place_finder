@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:place_finder/viewmodels/placeListViewModel.dart';
+import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -12,6 +14,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   Completer<GoogleMapController> _controller = Completer();
+  Position? _currentPosition;
   @override
   void initState() {
     super.initState();
@@ -19,18 +22,28 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _onMapCreated(GoogleMapController controller) async {
     _controller.complete(controller);
-    final position = await Geolocator().getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
-    controller.animateCamera(CameraUpdate.newCameraPosition(CameraPosition(target: LatLng(position.latitude, position.longitude), zoom: 14)));
+    final _currentPosition = await Geolocator().getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    controller.animateCamera(CameraUpdate.newCameraPosition(CameraPosition(target: LatLng(_currentPosition.latitude, _currentPosition.longitude), zoom: 14)));
   }
 
   @override
   Widget build(BuildContext context) {
+    final vm = Provider.of<PlaceListViewModel>(context);
+    print(vm.places);
     return Scaffold(
       body: Stack(children: <Widget>[
         GoogleMap(
           myLocationEnabled: true,
           onMapCreated: _onMapCreated,
           initialCameraPosition: CameraPosition(target: LatLng(45.521563, -122.677433), zoom: 14),
+        ),
+        SafeArea(
+          child: TextField(
+            onSubmitted: (value) {
+              vm.fetchPlacesByKeywordAndPosition(value, _currentPosition!.latitude, _currentPosition!.longitude);
+            },
+            decoration: InputDecoration(labelText: "Search here", fillColor: Colors.white, filled: true),
+          ),
         )
       ]),
     );
