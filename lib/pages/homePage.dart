@@ -47,11 +47,30 @@ class _HomePageState extends State<HomePage> {
           initialCameraPosition: CameraPosition(target: LatLng(45.521563, -122.677433), zoom: 14),
         ),
         SafeArea(
-          child: TextField(
-            onSubmitted: (value) {
-              vm.fetchPlacesByKeywordAndPosition(value, _currentPosition!.latitude, _currentPosition!.longitude);
-            },
-            decoration: InputDecoration(labelText: "Search here", fillColor: Colors.white, filled: true),
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: TextField(
+              onSubmitted: (value) {
+                vm.fetchPlacesByKeywordAndPosition(value, _currentPosition!.latitude, _currentPosition!.longitude);
+              },
+              decoration: InputDecoration(labelText: "Search here", fillColor: Colors.white, filled: true),
+            ),
+          ),
+        ),
+        Visibility(
+          visible: vm.places.length > 0 ? true : false,
+          child: SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: FlatButton(
+                  child: Text("Show List", style: TextStyle(color: Colors.white)),
+                  onPressed: () {},
+                  color: Colors.grey,
+                ),
+              ),
+            ),
           ),
         ),
       ]),
