@@ -6,6 +6,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:place_finder/viewmodels/placeListViewModel.dart';
 import 'package:place_finder/viewmodels/placeViewModel.dart';
+import 'package:place_finder/widgets/placeList.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -66,7 +67,13 @@ class _HomePageState extends State<HomePage> {
                 alignment: Alignment.bottomLeft,
                 child: FlatButton(
                   child: Text("Show List", style: TextStyle(color: Colors.white)),
-                  onPressed: () {},
+                  onPressed: () {
+                    showModalBottomSheet(
+                        context: context,
+                        builder: (context) => PlaceList(
+                              places: vm.places,
+                            ));
+                  },
                   color: Colors.grey,
                 ),
               ),
