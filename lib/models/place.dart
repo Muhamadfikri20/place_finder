@@ -16,6 +16,6 @@ class Place {
         name: json["name"],
         latitude: location["lat"],
         longitude: location["lng"],
-        photoURL: photos == null ? "images/place-holder.png" : photos.first["photo_reference"].toString());
+        photoURL: photos == null || photos.isEmpty ? "images/place-holder.png" : photos.first["photo_reference"].toString());
   }
 }

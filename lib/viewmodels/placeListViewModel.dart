@@ -8,7 +8,7 @@ class PlaceListViewModel extends ChangeNotifier {
 
   Future<void> fetchPlacesByKeywordAndPosition(String keyword, double latitude, double longitude) async {
     final results = await Webservice().fetchPlacesByKeywordAndPosition(keyword, latitude, longitude);
-    this.places = results.map((place) => PlaceViewModel(place)).toList();
+    places = results.map((place) => PlaceViewModel(place)).toList();
     notifyListeners();
   }
 }

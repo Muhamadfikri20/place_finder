@@ -5,6 +5,7 @@ import 'package:geolocator/geolocator.dart';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:place_finder/viewmodels/placeListViewModel.dart';
+import 'package:place_finder/viewmodels/placeViewModel.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,6 +21,13 @@ class _HomePageState extends State<HomePage> {
     super.initState();
   }
 
+  Set<Marker> _getPlaceMarkers(List<PlaceViewModel> places) {
+    return places.map((place) {
+      return Marker(
+          markerId: MarkerId(place.placeId), icon: BitmapDescriptor.defaultMarker, infoWindow: InfoWindow(title: place.name), position: LatLng(place.latitude, place.longitude));
+    }).toSet();
+  }
+
   Future<void> _onMapCreated(GoogleMapController controller) async {
     _controller.complete(controller);
     final _currentPosition = await Geolocator().getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
@@ -33,6 +41,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Stack(children: <Widget>[
         GoogleMap(
+          markers: _getPlaceMarkers(vm.places),
           myLocationEnabled: true,
           onMapCreated: _onMapCreated,
           initialCameraPosition: CameraPosition(target: LatLng(45.521563, -122.677433), zoom: 14),
@@ -44,7 +53,7 @@ class _HomePageState extends State<HomePage> {
             },
             decoration: InputDecoration(labelText: "Search here", fillColor: Colors.white, filled: true),
           ),
-        )
+        ),
       ]),
     );
   }

@@ -4,26 +4,26 @@ class PlaceViewModel {
   Place? _place;
 
   PlaceViewModel(Place place) {
-    this._place = place;
+    _place = place;
   }
 
   String get placeId {
-    return this._place!.placeId;
+    return _place!.placeId;
   }
 
   String get photoURL {
-    return this._place!.photoURL;
+    return _place!.photoURL;
   }
 
   String get name {
-    return this._place!.name;
+    return _place!.name;
   }
 
   double get latitude {
-    return this._place!.latitude;
+    return _place!.latitude;
   }
 
   double get longitude {
-    return this._place!.longitude;
+    return _place!.longitude;
   }
 }
