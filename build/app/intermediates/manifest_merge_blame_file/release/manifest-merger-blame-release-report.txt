@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.place_finder"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:5-79
+11-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:1-77
+12-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:18-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:7:5-76
+15-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:7:22-73
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:7:5-77
+16-->[:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:7:22-74
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+21
+22    <application
+23        android:name="android.app.Application"
+23-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:10:9-42
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.6.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:11:9-43
+26        android:label="place_finder" >
+26-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:9:9-37
+27        <meta-data
+27-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:12:9-13:70
+28            android:name="com.google.android.geo.API_KEY"
+28-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:12:20-65
+29            android:value="AIzaSyAvF0CYj_fBai5uBmKcvyFcoHMQQgHGFSg" />
+29-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:13:13-68
+30
+31        <activity
+31-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:14:9-36:20
+32            android:name="com.example.place_finder.MainActivity"
+32-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:15:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:20:13-163
+34            android:exported="true"
+34-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:16:13-36
+35            android:hardwareAccelerated="true"
+35-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:21:13-47
+36            android:launchMode="singleTop"
+36-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:17:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:19:13-47
+38            android:usesCleartextTraffic="true"
+38-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:18:13-48
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:22:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47
+48            <meta-data
+48-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:28:13-31:17
+49                android:name="io.flutter.embedding.android.NormalTheme"
+49-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:29:15-70
+50                android:resource="@style/NormalTheme" />
+50-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:30:15-52
+51
+52            <intent-filter>
+52-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:32:13-35:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:33:17-68
+53-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:33:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:34:17-76
+55-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:34:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:39:9-41:33
+63            android:name="flutterEmbedding"
+63-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:40:13-44
+64            android:value="2" />
+64-->/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:41:13-30
+65
+66        <service
+66-->[:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:10:9-14:56
+67            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+67-->[:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-77
+68            android:enabled="true"
+68-->[:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-35
+69            android:exported="false"
+69-->[:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+70            android:foregroundServiceType="location" />
+70-->[:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:14:13-53
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+77            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+77-->[androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+90    </application>
+91
+92</manifest>

@@ -14,7 +14,8 @@ class PlaceList extends StatelessWidget {
       itemBuilder: (context, index) {
         final place = this.places[index];
 
-        return ListTile(title: Text(place.name));
+        return ListTile(
+            leading: Container(width: 100, height: 100, child: Image.network(UrlHelper.urlForReferenceImage(place.photoURL), fit: BoxFit.cover)), title: Text(place.name));
       },
     );
   }
