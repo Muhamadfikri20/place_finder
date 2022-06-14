@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:map_launcher/map_launcher.dart';
 import 'package:place_finder/viewmodels/placeListViewModel.dart';
 import 'package:place_finder/viewmodels/placeViewModel.dart';
 import 'package:place_finder/widgets/placeList.dart';
 import 'package:provider/provider.dart';
+import 'package:map_launcher/map_launcher.dart' as prefix0;
 
 class HomePage extends StatefulWidget {
   @override
@@ -31,151 +33,21 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+    getLocation();
   }
 
-  Future<void> _getCurrentPosition() async {
-    final hasPermission = await _handlePermission();
-
-    if (!hasPermission) {
-      return;
-    }
-
-    final position = await _geolocatorPlatform.getCurrentPosition();
-    _updatePositionList(
-      _PositionItemType.position,
-      position.toString(),
-    );
-  }
-
-  Future<bool> _handlePermission() async {
-    bool serviceEnabled;
+  void getLocation() async {
+    GoogleMapController? controller;
     LocationPermission permission;
-
-    // Test if location services are enabled.
-    serviceEnabled = await _geolocatorPlatform.isLocationServiceEnabled();
-    if (!serviceEnabled) {
-      // Location services are not enabled don't continue
-      // accessing the position and request users of the
-      // App to enable the location services.
-      _updatePositionList(
-        _PositionItemType.log,
-        _kLocationServicesDisabledMessage,
-      );
-
-      return false;
-    }
-
-    permission = await _geolocatorPlatform.checkPermission();
+    permission = await Geolocator.checkPermission();
+    permission = await Geolocator.requestPermission();
     if (permission == LocationPermission.denied) {
-      permission = await _geolocatorPlatform.requestPermission();
-      if (permission == LocationPermission.denied) {
-        // Permissions are denied, next time you could try
-        // requesting permissions again (this is also where
-        // Android's shouldShowRequestPermissionRationale
-        // returned true. According to Android guidelines
-        // your App should show an explanatory UI now.
-        _updatePositionList(
-          _PositionItemType.log,
-          _kPermissionDeniedMessage,
-        );
-
-        return false;
-      }
+      //nothing
     }
-
-    if (permission == LocationPermission.deniedForever) {
-      // Permissions are denied forever, handle appropriately.
-      _updatePositionList(
-        _PositionItemType.log,
-        _kPermissionDeniedForeverMessage,
-      );
-
-      return false;
-    }
-
-    // When we reach here, permissions are granted and we can
-    // continue accessing the position of the device.
-    _updatePositionList(
-      _PositionItemType.log,
-      _kPermissionGrantedMessage,
-    );
-    return true;
-  }
-
-  void _updatePositionList(_PositionItemType type, String displayValue) {
-    _positionItems.add(_PositionItem(type, displayValue));
-    setState(() {});
-  }
-
-  bool _isListening() => !(_positionStreamSubscription == null || _positionStreamSubscription!.isPaused);
-
-  Color _determineButtonColor() {
-    return _isListening() ? Colors.green : Colors.red;
-  }
-
-  void _toggleServiceStatusStream() {
-    if (_serviceStatusStreamSubscription == null) {
-      final serviceStatusStream = _geolocatorPlatform.getServiceStatusStream();
-      _serviceStatusStreamSubscription = serviceStatusStream.handleError((error) {
-        _serviceStatusStreamSubscription?.cancel();
-        _serviceStatusStreamSubscription = null;
-      }).listen((serviceStatus) {
-        String serviceStatusValue;
-        if (serviceStatus == ServiceStatus.enabled) {
-          if (positionStreamStarted) {
-            _toggleListening();
-          }
-          serviceStatusValue = 'enabled';
-        } else {
-          if (_positionStreamSubscription != null) {
-            setState(() {
-              _positionStreamSubscription?.cancel();
-              _positionStreamSubscription = null;
-              _updatePositionList(_PositionItemType.log, 'Position Stream has been canceled');
-            });
-          }
-          serviceStatusValue = 'disabled';
-        }
-        _updatePositionList(
-          _PositionItemType.log,
-          'Location service has been $serviceStatusValue',
-        );
-      });
-    }
-  }
-
-  void _toggleListening() {
-    if (_positionStreamSubscription == null) {
-      final positionStream = _geolocatorPlatform.getPositionStream();
-      _positionStreamSubscription = positionStream.handleError((error) {
-        _positionStreamSubscription?.cancel();
-        _positionStreamSubscription = null;
-      }).listen((position) => _updatePositionList(
-            _PositionItemType.position,
-            position.toString(),
-          ));
-      _positionStreamSubscription?.pause();
-    }
-
-    setState(() {
-      if (_positionStreamSubscription == null) {
-        return;
-      }
-
-      String statusDisplayValue;
-      if (_positionStreamSubscription!.isPaused) {
-        _positionStreamSubscription!.resume();
-        statusDisplayValue = 'resumed';
-      } else {
-        _positionStreamSubscription!.pause();
-        statusDisplayValue = 'paused';
-      }
-
-      _updatePositionList(
-        _PositionItemType.log,
-        'Listening for position updates $statusDisplayValue',
-      );
-    });
+    _controller.complete(controller);
+    _currentPosition = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.low);
+    controller!.animateCamera(CameraUpdate.newCameraPosition(CameraPosition(target: LatLng(_currentPosition!.latitude, _currentPosition!.longitude), zoom: 14)));
+    print(_currentPosition);
   }
 
   Set<Marker> _getPlaceMarkers(List<PlaceViewModel> places) {
@@ -185,10 +57,23 @@ class _HomePageState extends State<HomePage> {
     }).toSet();
   }
 
+  Future getMaps() async {
+    await GeolocatorPlatform.instance.getCurrentPosition();
+  }
+
   Future<void> _onMapCreated(GoogleMapController controller) async {
     _controller.complete(controller);
     final _currentPosition = await GeolocatorPlatform.instance.getCurrentPosition();
     controller.animateCamera(CameraUpdate.newCameraPosition(CameraPosition(target: LatLng(_currentPosition.latitude, _currentPosition.longitude), zoom: 14)));
+  }
+
+  Future<void> _openMapsFor(PlaceViewModel vm) async {
+    bool isGoogleMaps = await MapLauncher.isMapAvailable(prefix0.MapType.google) ?? false;
+    if (isGoogleMaps) {
+      await MapLauncher.showMarker(mapType: prefix0.MapType.google, coords: Coords(vm.latitude, vm.longitude), title: vm.name, description: vm.name);
+    } else {
+      await MapLauncher.showMarker(mapType: prefix0.MapType.apple, coords: Coords(vm.latitude, vm.longitude), title: vm.name, description: vm.name);
+    }
   }
 
   @override
@@ -230,6 +115,7 @@ class _HomePageState extends State<HomePage> {
                         context: context,
                         builder: (context) => PlaceList(
                               places: vm.places,
+                              onSelected: _openMapsFor,
                             ));
                   },
                   color: Colors.grey,

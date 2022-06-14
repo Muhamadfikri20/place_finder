@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:8:4-42:19
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:9:4-43:19
 MERGED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
@@ -26,14 +26,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/derm
 	android:name
 		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-43:12
-MERGED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-43:12
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-44:12
+MERGED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-44:12
 MERGED from [:google_maps_flutter] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
@@ -66,40 +67,40 @@ INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/ud
 		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-44:12
 		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:1-44:12
 		INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:1:11-69
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:5-79
-	android:name
-		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:1-77
-	android:name
-		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:18-74
 uses-permission#android.permission.INTERNET
-ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:6:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/6f3daa1ca7d5f0cb334e07491a88b930/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:6:22-76
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:7:5-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:7:22-73
+		ADDED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml:7:22-78
 uses-sdk
 INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/android/app/src/main/AndroidManifest.xml
@@ -110,6 +111,8 @@ MERGED from [:flutter_plugin_android_lifecycle] /Users/dermakonsepestetika/Worki
 MERGED from [:flutter_plugin_android_lifecycle] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -178,6 +181,68 @@ ADDED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project
 		ADDED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
 	android:name
 		ADDED from [:geolocator_android] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
+queries
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-23:15
+package#com.google.android.apps.maps
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-64
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-61
+package#com.google.android.apps.mapslite
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-68
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:18-65
+package#com.autonavi.minimap
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-56
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:18-53
+package#com.baidu.BaiduMap
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-54
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:18-51
+package#com.waze
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-41
+package#ru.yandex.yandexnavi
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-56
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-53
+package#ru.yandex.yandexmaps
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-56
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:14:18-53
+package#com.citymapper.app.release
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-62
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:15:18-59
+package#com.mapswithme.maps.pro
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-59
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-56
+package#net.osmand
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-46
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:17:18-43
+package#net.osmand.plus
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-51
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:18:18-48
+package#ru.dublgis.dgismobile
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-57
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:19:18-54
+package#com.tencent.map
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-51
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:20:18-48
+package#com.here.app.maps
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-53
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:21:18-50
+package#com.huawei.maps.app
+ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-55
+	android:name
+		ADDED from [:map_launcher] /Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/map_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:22:18-52
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /Users/dermakonsepestetika/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

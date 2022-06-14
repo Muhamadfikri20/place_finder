@@ -4,8 +4,8 @@ import 'package:place_finder/viewmodels/placeViewModel.dart';
 
 class PlaceList extends StatelessWidget {
   final List<PlaceViewModel> places;
-
-  PlaceList({required this.places});
+  Function(PlaceViewModel) onSelected;
+  PlaceList({required this.places, required this.onSelected});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,11 @@ class PlaceList extends StatelessWidget {
         final place = this.places[index];
 
         return ListTile(
-            leading: Container(width: 100, height: 100, child: Image.network(UrlHelper.urlForReferenceImage(place.photoURL), fit: BoxFit.cover)), title: Text(place.name));
+            onTap: () {
+              this.onSelected(place);
+            },
+            leading: Container(width: 100, height: 100, child: Image.network(UrlHelper.urlForReferenceImage(place.photoURL), fit: BoxFit.cover)),
+            title: Text(place.name));
       },
     );
   }

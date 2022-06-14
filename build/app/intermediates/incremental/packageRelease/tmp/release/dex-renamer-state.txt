@@ -1,4 +1,0 @@
-#Mon Jun 13 11:36:16 WIB 2022
-base.0=/Users/dermakonsepestetika/WorkingSpace/Project/Project/Flutter/udemy/MVVM/place_finder/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

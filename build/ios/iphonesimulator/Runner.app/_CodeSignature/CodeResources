@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		Q79wRQ7Ldtw52FKiTIemzuP/A3o=
+		F2sVoRNqF9kFXc662AMHKArZNrM=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		iJ+BUNXDzcdLRteY8v9t10XUYCA=
+		zKC/p4sQJ9gdADFc73SNv1i+VGI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		Cv+lHLk2fPhzlUdRg/g37T1pJdo=
+		XWSssqrrYSN/v0N9LcaCJYpCpBo=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		kU7pz003yTjwFTUxXglP1KxikTo=
+		qQjPZtBJEcnGMZQEJ9IQ+xIQOG0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -82,11 +82,75 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		JB+I78Hb2tJk7DIXlcdEewYkm7M=
+		OhTyy/ozRwee8SoV1kem/MpoQgk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		P7bb/oR3EhwqCIH1M6LyTuBIWYU=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/amap.svg</key>
+		<data>
+		/UcCcm5+vMY4bTjwHR+6ZAK7XtY=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/apple.svg</key>
+		<data>
+		fbXH1s+tBcmpq6YuVXwbvrjCjr4=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/baidu.svg</key>
+		<data>
+		kpvWwpzObQC6wQufGS+PiTcPx3U=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/citymapper.svg</key>
+		<data>
+		yf0tN4vpTm17f8jbPeJ+jFyF+xg=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/doubleGis.svg</key>
+		<data>
+		fHQQTkXBPXOa1OhYgPJ5rFn84ts=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/google.svg</key>
+		<data>
+		WA9cr3Lw3dNrPylu/Y4wapia0Ak=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/googleGo.svg</key>
+		<data>
+		WA9cr3Lw3dNrPylu/Y4wapia0Ak=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/here.svg</key>
+		<data>
+		R2j1HvxQ3E/n4KLC/RAUjHp7iZY=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/mapswithme.svg</key>
+		<data>
+		2EG3vyWdMxu+oqseoMOQkPby5Wg=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/osmand.svg</key>
+		<data>
+		xyb4z9N5g2wqyDoTR3pcLPI8960=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/osmandplus.svg</key>
+		<data>
+		T9sg0GPVvxFD1Ssi+hokqf/VBxU=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/petal.svg</key>
+		<data>
+		YdmQyjguDckOzTv92GPqLr/JRsg=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/tencent.svg</key>
+		<data>
+		xHB+4uLkTuaVH2EnJXsIGyTM+6k=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/waze.svg</key>
+		<data>
+		SOFZ9KgocLC41twkJv/jdJImYMk=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/yandexMaps.svg</key>
+		<data>
+		nP3c3vxkt2pPGxI76FH+HaYzARk=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/yandexNavi.svg</key>
+		<data>
+		Jgt5gGSCQD7dmm/g6KacQzee8k8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/vm_snapshot_data</key>
 		<data>
@@ -94,7 +158,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
-		ESr01eqyVndqJAEy6FkMReX9Ggo=
+		Wvf0xtOiQB+rHygNcOyyT00ZjeY=
 		</data>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
 		<data>
@@ -186,7 +250,19 @@
 		</data>
 		<key>Frameworks/geolocator_apple.framework/geolocator_apple</key>
 		<data>
-		5eicA57OHcRK56Uhc+LRDvbFKiw=
+		sjw1dIa0yYiUxHBu5vPAPlni4R4=
+		</data>
+		<key>Frameworks/map_launcher.framework/Info.plist</key>
+		<data>
+		v8bBtg1ShlcqMZByC8+9BGa2TKg=
+		</data>
+		<key>Frameworks/map_launcher.framework/_CodeSignature/CodeResources</key>
+		<data>
+		lR6KZvwXVg2jlo7IH4hITVq1QQ8=
+		</data>
+		<key>Frameworks/map_launcher.framework/map_launcher</key>
+		<data>
+		YJ/Dc5M5cXMyigsicpBf9IqFTCU=
 		</data>
 		<key>GoogleMaps.bundle/Assets.car</key>
 		<data>
@@ -991,7 +1067,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wEKkA/QjuZ3ZuliAN3Ol8/CjhJc=
+		IHs07kdhC60k5mBc8Qcecv9UqN0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1074,7 +1150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U2PIpthTKco9KXbMpt4T03uDZcFPmiNCq0jls9js0gg=
+			dCSYJcrQ9Tk2GXRbXl24ejrsJIQolsU/eD0GbHiTRJ0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -1088,14 +1164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			03cVW/WMJezX+FjOgRm35iSMo3ke8cDG3bQfdiHbffE=
+			+oAzML0+Ia7xy0sD36aupbUKvPGCOyIFAQujedBkGIE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JpElp0Yb9jwAhEXVPo6pl0aOxzj5bcDfkEjVgm9qP+4=
+			0KfR+O2l48uEzFC2ZvYxBuLhzhOCnp8AQ3rE9V/O7oY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -1109,7 +1185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1NHBp1o9GzUoXwE+YlSILH0m3QnVhTpWUwcsGCP0ec=
+			x5BPz8HEs3VHEWa8BZZwuVI/Sj/rwbkn0zJNgCIpQng=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -1137,7 +1213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u/bB1NnniCP3DzaAZZRgEg2Tqqqu56NHNzL/jMNTx2Q=
+			xCMEqaHgTuhbGKdGfr9NDzZtTo4/itX3GnBNvxpIYR8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1145,6 +1221,118 @@
 			<key>hash2</key>
 			<data>
 			x6NX+tjyECiQtyzbbjyY8U2zoZ7GDbJtE+T+k/dzgI0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/amap.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Wr031u30Pu97HBIjBgwfnFdZUpL8f4HECJ1XcOX1KoE=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/apple.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kn9AOJ7gXxabPyRlPNz8AI6mPOTv5u2OfFsR/REEHQg=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/baidu.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			00PWhidSUnTf5cU5Ejq0tBE7cK2E0UwxhRdPOT9X8dc=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/citymapper.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v3IXMJdCLiOoByUqPyIkQPOsi9NIbDf12d6CxFWyEWM=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/doubleGis.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ok9OtP4jZjwf5RyrWMnQB71DQNX2VPS7oJuYqdZs7XE=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/google.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4YF2UcZaQAMrrfSq1wQpp5DkqnSwAsywYd9J2vz0LzI=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/googleGo.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4YF2UcZaQAMrrfSq1wQpp5DkqnSwAsywYd9J2vz0LzI=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/here.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rUQiM33DRtHn1pBarL47stkf4YoXlTt1PrTKY8ouvo4=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/mapswithme.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uwnswDmDaltG9lGAPa0YX83TGVhoB/6hsZGceGpdvEY=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/osmand.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IgywVvb4c7fdwz2p0vYWT761a4E6PSCDaGoHCvAH4/s=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/osmandplus.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KNUbodHA0t6qoum/1oF6w5i3bJJpwTVZEBVuVvFt11E=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/petal.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lpUkkuYcZ/B9EDw0zZV+LsQTZtNw19h/AZLeBPpELc0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/tencent.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vRjds012+eza82uLUkmZmZjPg/yAQ0Z0PgAE43ScAKk=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/waze.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z8YMJsOo0T3s5jSRlvoekkbT7Zt1ISsdKs3cOPtpkio=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/yandexMaps.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HJC731UCd/iwO+ADp7Cjj642pOfMU7NZf000qMzVVEc=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/packages/map_launcher/assets/icons/yandexNavi.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YZhgQ+uvAED4rFRgFndcPtLk8JBV4rYMm17ikzH1BNE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/vm_snapshot_data</key>
@@ -1158,7 +1346,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wVV/XDOrpdLVOuo6/vcjg1DvQDqgpdBhT29UvhrGSU8=
+			ebcWmQYxIzFDVstn/iE05ya8/H/ZpkIw32CcJHnb4Hg=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
@@ -1319,7 +1507,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			76IUgamJZkWlaj8IQPRh5OwfptbCK1CNvYpLsLKpVrQ=
+			kqMp3UKux0XLUHlWH4IIb5uLWxiZrPn++4977tDQQCs=
+			</data>
+		</dict>
+		<key>Frameworks/map_launcher.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u+SKvmXyeZPWxEy7fJmCpIiaDh9X7KJGFhw7C6JL838=
+			</data>
+		</dict>
+		<key>Frameworks/map_launcher.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qX7rfJxVntAeWEc1tktH4FWUX74oK+ax6jVh4iESdbs=
+			</data>
+		</dict>
+		<key>Frameworks/map_launcher.framework/map_launcher</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5NdUD9GkwMY6vXVy2l1TstRt4k0tmAQxAVQ4+0qjF4k=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/Assets.car</key>

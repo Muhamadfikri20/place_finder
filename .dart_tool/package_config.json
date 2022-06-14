@@ -146,6 +146,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "map_launcher",
+      "rootUri": "file:///Users/dermakonsepestetika/WorkingSpace/Project/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///Users/dermakonsepestetika/WorkingSpace/Project/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.11",
       "packageUri": "lib/",
@@ -254,7 +260,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-06-13T09:28:51.462562Z",
+  "generated": "2022-06-14T03:09:28.686422Z",
   "generator": "pub",
   "generatorVersion": "2.16.2"
 }
