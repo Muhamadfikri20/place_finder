@@ -198,6 +198,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Stack(children: <Widget>[
         GoogleMap(
+          mapType: vm.mapType,
           markers: _getPlaceMarkers(vm.places),
           myLocationEnabled: true,
           onMapCreated: _onMapCreated,
@@ -237,6 +238,15 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
+        Positioned(
+          top: 150,
+          right: 10,
+          child: FloatingActionButton(
+              onPressed: () {
+                vm.toggleMapType();
+              },
+              child: Icon(Icons.map)),
+        )
       ]),
     );
   }
